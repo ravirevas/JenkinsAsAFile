@@ -8,11 +8,4 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('Hello this is file 2') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
 }
